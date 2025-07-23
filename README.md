@@ -1,69 +1,86 @@
-# React + TypeScript + Vite
+# 🚀 Wal-Map: AI-Powered Retail Expansion Platform 🛒🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1b741f00-2121-4a86-86b6-e631c8263be7" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Built by **Team CodeNext** for the **Walmart Sparkathon 2025**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Retail expansion is no longer just about choosing a city—it’s a complex data challenge. Meet **Wal-Map**, an AI-powered Retail Expansion Intelligence System designed to help businesses make smarter, faster, and greener decisions when planning new stores or warehouses.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+With Wal-Map, expansion becomes intelligent, data-driven, and future-ready.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### 💡 Built for the theme: **Transforming Retail Supply Chains**
+*Powering smarter decisions with data and AI.*
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🔍 Key Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+-   **✅ Smart Location Recommendations:** Get AI-driven suggestions for new store locations based on your custom business goals, including budget, product category, and strategic priorities.
+-   **✅ Interactive Mapping System:** Visualize potential locations, delivery radiuses, and key demographic data on an interactive map.
+-   **✅ AI-Based Demand Forecasting:** Leverage machine learning models to predict future demand in different regions, ensuring you invest in high-growth areas.
+-   **✅ Logistics Feasibility Scoring:** Analyze infrastructure, transportation networks, and supplier proximity to calculate a logistics efficiency score for each potential site.
+-   **✅ Sustainability Tracking:** Make environmentally conscious decisions by evaluating locations based on their carbon footprint, access to renewable energy, and waste management potential.
+-   **✅ Dynamic Data Visualizations:** Understand complex data at a glance with interactive charts, competitor heatmaps, and radar graphs for multi-factor analysis.
+-   **✅ Simple Dataset Management:** Easily upload your own datasets (e.g., sales history, population data) to fine-tune the AI models and tailor the recommendations to your specific business needs.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🛠️ Tech Stack
+
+Our platform is built with a modern, robust, and scalable tech stack:
+
+-   **Frontend:** React, Vite, Tailwind CSS, Shadcn/UI, Lucide Icons
+-   **Backend:** Python, Flask
+-   **Machine Learning:** Scikit-learn, Pandas, NumPy
+-   **Data Visualization:** Chart.js, Recharts
+-   **Mapping:** Leaflet / Mapbox
+-   **Database:** PostgreSQL / SQLite
+
+---
+
+## ⚙️ Getting Started
+
+Follow these instructions to get a local copy up and running for development and testing purposes.
+
+### Prerequisites
+
+-   Node.js (v18 or later)
+-   Python (v3.9 or later) & pip
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/KomalMaurya/Wal-Map.git](https://github.com/KomalMaurya/wal-map.git)
+    cd wal-map
+    ```
+
+2.  **Setup the Frontend (React App):**
+    ```sh
+    # Navigate to the frontend directory from the root
+    cd ../frontend
+
+    # Install npm packages
+    npm install
+    ```
+
+### Running the Application
+
+1.  **Start the Frontend Development Server:**
+    -   In a new terminal, navigate to the `frontend` directory.
+    -   Run the Vite development server.
+    ```sh
+    npm run dev
+    ```
+    -   Open your browser and go to `http://localhost:5173` to see the application.
+
+---
+
+## 🤝 The Team
+
+**Wal-Map** was proudly developed by **Team CodeNext**.
+
+---
