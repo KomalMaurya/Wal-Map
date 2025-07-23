@@ -1,6 +1,7 @@
 # 🚀 Wal-Map: AI-Powered Retail Expansion Platform 🛒🌍
 
-![Wal-Map Screenshot](https://i.imgur.com/gY5z2Lq.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1b741f00-2121-4a86-86b6-e631c8263be7" />
+
 
 ### Built by **Team CodeNext** for the **Walmart Sparkathon 2025**
 
@@ -53,7 +54,7 @@ Follow these instructions to get a local copy up and running for development and
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/wal-map.git](https://github.com/your-username/wal-map.git)
+    git clone [https://github.com/KomalMaurya/Wal-Map.git](https://github.com/KomalMaurya/wal-map.git)
     cd wal-map
     ```
 
